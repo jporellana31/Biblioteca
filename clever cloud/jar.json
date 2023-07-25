@@ -1,6 +1,6 @@
 {
   "build": {
-    "language": "java",
+    "type": "maven",
     "goal": "package"
   },
   "deploy": {
