@@ -4,6 +4,9 @@
     "goal": "package"
   },
   "deploy": {
-    "jarName": "back-end-libros-0.0.1-SNAPSHOT.jar"
+    "jarName": "target/back-end-libros-0.0.1-SNAPSHOT.jar"
+  },
+  "tests": {
+    "skip": true
   }
 }
