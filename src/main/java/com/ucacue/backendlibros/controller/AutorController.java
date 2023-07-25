@@ -21,12 +21,12 @@ public class AutorController {
     @Autowired
     AutorRepository autorRepository;
 
-    @GetMapping("/autores")
+    @GetMapping("/autor")
     public List<Autor> getAllAutor(){
         return autorRepository.findAll();
     }
 
-    @GetMapping("/autores/{id}")
+    @GetMapping("/autor/{id}")
     public List<Libro> getLibrosByAutor(@PathVariable int id){
         return autorRepository.findById(id).get().getLibros();
     }
