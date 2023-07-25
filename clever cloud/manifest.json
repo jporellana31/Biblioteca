@@ -1,11 +1,10 @@
 {
-  
   "build": {
     "language": "java",
-    "goal": "package",    // Comando de construcción de Maven (ej. "mvn package")
-    "clean": "mvn clean"  // Comando para limpiar el proyecto (opcional)
+    "goal": "package",
+    "clean": "mvn clean"
   },
   "deploy": {
-    "jarName": "back-end-libros-0.0.1-SNAPSHOT.jar" // Nombre del archivo JAR generado por Maven
+    "jarName": "back-end-libros-0.0.1-SNAPSHOT"
   }
 }
