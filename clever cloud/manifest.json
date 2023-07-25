@@ -5,6 +5,6 @@
     "clean": "mvn clean"
   },
   "deploy": {
-    "jarName": "back-end-libros-0.0.1-SNAPSHOT"
+    "jarName": "back-end-libros-0.0.1-SNAPSHOT.jar"
   }
 }
